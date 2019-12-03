@@ -1,0 +1,24 @@
+/*body{*/
+
+    /*Aquí va la imagen de background*/
+/*}*/
+div.boxie{
+    width: 90%;
+    margin: 0 auto;
+    border-style: hidden;
+    border-radius: 10px; 
+    border-width: 20px;
+    border-color: black;
+    background-color: red;
+  padding: 10px;
+}
+ol, ul {
+    list-style: none;
+}
+ol.index{
+    margin: 0 auto;
+    width: 500px;
+}
+ol.index > li{
+    float:left;
+}
