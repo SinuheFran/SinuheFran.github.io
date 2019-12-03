@@ -2,6 +2,14 @@
 
     /*Aquí va la imagen de background*/
 /*}*/
+body{
+    background: white;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
 div.boxie{
     width: 90%;
     margin: 0 auto;
@@ -12,13 +20,26 @@ div.boxie{
     background-color: red;
   padding: 10px;
 }
+h1{
+max-width: 100%;
+border-style: hidden;
+border-bottom: solid;
+border-color: black;
+margin:0 auto;
+padding-left: 35%;
+}
 ol, ul {
     list-style: none;
+    color: white;
+    max-width: 250px;
+    border-style: hidden;
+    background-color: black;
+    padding:10px;
 }
-ol.index{
-    margin: 0 auto;
-    width: 500px;
-}
-ol.index > li{
-    float:left;
+ul > a li{
+    max-width: 300px;
+    border-style:solid;
+    background: black;
+    padding:5px;
+    display: block;
 }
