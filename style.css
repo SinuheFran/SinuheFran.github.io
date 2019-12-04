@@ -6,7 +6,7 @@ body{
     background: white;
     color:white;
 }
-a{
+ol.Index li a{
     text-decoration: none;
     color:white;
 }
@@ -26,9 +26,9 @@ border-style: hidden;
 border-bottom: solid;
 border-color: black;
 margin:0 auto;
-padding-left: 35%;
+padding-left: 40%;
 }
-ol, ul {
+ol{
     list-style: none;
     color: white;
     max-width: 250px;
@@ -42,4 +42,14 @@ ul > a li{
     background: black;
     padding:5px;
     display: block;
+}
+.Index li ul{
+    display:none;
+}
+ul > a li:hover{
+    display:block;
+    background-color: grey;
+}
+.Index li:hover > ul {
+    display:block;
 }
