@@ -1,13 +1,10 @@
 body{
-    background-image: url("backgroundIndex.jpg");
+    background-image: url("backgroundNovel.jpg");
     background-color:#F1E5E5;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
 }
-ol.Index li a{
-    text-decoration: none;
-    color:white;
-}
+
 div.boxie{
     width: 90%;
     margin: 0 auto;
@@ -19,26 +16,19 @@ div.boxie{
   padding: 10px;
 }
 h1{
-    font-family: 'MedievalSharp', cursive;
-    
+    font-family: 'MedievalSharp', cursive;    
+        max-width: 100%;
+        border-style: hidden;
+        border-bottom: solid;
+        border-color: black;
+        margin:0 auto;
+        padding-left: 45%;
+        
 }
-p.Introduction{
-    font-family: 'MedievalSharp', cursive;
-    border-style: hidden;
-    max-width:100%;
-padding:10px;
-padding-bottom: 5px;
-margin:0 auto;
-}
-h1{
-max-width: 100%;
-border-style: hidden;
-border-bottom: solid;
-border-color: black;
-margin:0 auto;
-padding-left: 40%;
-}
-ol{
+h1 a{
+    text-decoration: none;
+    color:white;
+}ol.Index{
     list-style: none;
     color: white;
     max-width: 250px;
@@ -48,23 +38,29 @@ ol{
     background-color: black;
     padding:10px;
 }
-ul > a li{
+ol.Index a{
+    text-decoration: none;
+    color:white;
+}
+ul.index > a li{
     max-width: 300px;
     border-style:solid;
     background: black;
     padding:5px;
     display: block;
 }
-.Index li ul{
+.Index li ul.index{
     display:none;
 }
-ul > a li:hover{
+ul.index > a li:hover{
     display:block;
     background-color: grey;
 }
-.Index li:hover > ul {
+.Index li:hover > ul.index {
     display:block;
 }
-footer{
-    font-size: 11px;
+
+nav{
+    font-size:24px;
+    font-family: 'Solway', serif;
 }

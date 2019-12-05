@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "LifeCraft";
+    src: url("LifeCraft_Font.ttf");
+  }
+  @font-face{
+      font-family: "DnDC";
+      src: url("DnDC.ttf");
+  }
+  
+
+body{
+    background-image: url("backgroundWoW.jpg");
+    background-color:#F1E5E5;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.boxie{
+    width: 90%;
+    margin: 0 auto;
+    border-style: hidden;
+    border-radius: 10px; 
+    border-width: 20px;
+    
+    background-color: #BD462D;
+  padding: 10px;
+}
+h1{
+    font-family: 'DnDC';
+    font-size: 4em;  
+    max-width: 100%;
+        border-style: hidden;
+        border-bottom: solid;
+        border-color: black;
+        margin:0 auto;
+        padding-left: 35%;        
+}
+
+h1 a{
+    text-decoration: none;
+    color:white;
+}ol.Index{
+    list-style: none;
+    color: white;
+    max-width: 250px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    background-color: black;
+    padding:10px;
+}
+ol.Index a{
+    text-decoration: none;
+    color:white;
+}
+ul.index > a li{
+    max-width: 300px;
+    border-style:solid;
+    background: black;
+    padding:5px;
+    display: block;
+}
+.Index li ul.index{
+    display:none;
+}
+ul.index > a li:hover{
+    display:block;
+    background-color: grey;
+}
+.Index li:hover > ul.index {
+    display:block;
+}
+
+
+a.DD{
+font-family: 'DnDC';
+font-size: 3em;
+}

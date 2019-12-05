@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Form</title>
+    <title>PortalLectura</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="bookicon.png">
+    
 </head>
 
 <body>
+    <div class="boxie">
 <p>Bienvenido al formulario de sugerencias. Siéntete libre de dejar lo que piensas</p>
 <form id="formu">
 <p><label for="name">Nombre</label></p>
-<input type="text" id="name" required value="name" placeholder="Insertar nombre">
+<input type="text" id="name" required placeholder="Insertar nombre">
 
 <p><label for="experience">¿Cuál ha sido tu experiencia?</label></p>
 <p><label><input type="radio" id="experience" value="Good">Buena</label> </p>
@@ -21,9 +25,11 @@
 
 <p><label for="improvement">Deja aquí tu sugerencia:</label></p>
 <textarea id="improvement" required></textarea> 
-
+<br>
 <button type="submit" onclick="Trespass">Enviar</button>
-
+<br>
+<p class="Thanks">¡Gracias por tu sugerencia!</p>
 </form>
+</div>
 </body>
 </html>
