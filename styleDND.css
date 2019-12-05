@@ -39,7 +39,55 @@ h1{
 h1 a{
     text-decoration: none;
     color:white;
-}ol.Index{
+}
+
+table{
+width: 93%;
+padding:5px;
+margin: 0 auto;
+border-style:solid;
+border-width: 5px;
+border-color: black;
+background-color: grey;
+text-align: center;
+height: 500px;;
+}
+a.class{
+    text-decoration: none;
+    color:white;
+}
+td{
+    width:31%;
+    margin:0 auto;
+    padding-left: 20px;   
+    border: 2px solid black;
+} 
+td.Melee{
+    background-image: url("barbarian.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+td.Caster{
+    background-image: url("mage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+td.Holy{
+    background-image: url("pally.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+td.Nature{
+    background-image: url("druid.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+td.Dark{
+    background-image: url("warlock.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ol.Index{
     list-style: none;
     color: white;
     max-width: 250px;
@@ -71,8 +119,24 @@ ul.index > a li:hover{
     display:block;
 }
 
-
 a.DD{
-font-family: 'DnDC';
-font-size: 3em;
+    font-family: 'DnDC';
+    font-size: 30px;
 }
+a.W{
+    font-family: 'LifeCraft';
+    font-size:26px;
+}
+.W{   
+    font-family: 'LifeCraft',Arial, Helvetica, sans-serif;
+    font-size:26px;
+}
+div.WW{
+   
+width: 90%;
+padding:5px;
+margin: 0 auto;
+border-style:hidden;
+text-align: center;
+}
+
